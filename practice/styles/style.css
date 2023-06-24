@@ -1,0 +1,334 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    align-self: center;   
+}
+
+.topLine{
+    display: flex;
+    width: 80vw;
+    padding: 20px;
+    align-items: center;
+}
+
+.logoName {
+    display: flex;
+    width: 50vw;
+    border: 1px solid black;
+    padding-left: 30px;
+    gap: 15px;
+
+}
+
+.nav {
+    display: flex;
+border: 1px solid black;
+width: 50vw;
+justify-content: space-around;
+}
+
+.firstScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../assets/src/img/bgpic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+    white-space: pre-line;
+    border: 1px solid black;
+    border-bottom-left-radius: 290px;
+    
+}
+
+.button_start {
+    width: 150px;
+    height: 45px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #292F36;
+    color:#FFFFFF;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionsBoxOne {
+    display: flex;
+    padding: 100px 45px 40px 45px;
+    justify-content: center;
+    gap: 150px;
+    min-width: 10px;
+    border: 1px solid black;
+    
+}
+
+.sectionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    white-space: pre-line;
+    justify-content: space-between;
+}
+
+
+.articleOne{
+    display: flex;
+    justify-content: center;
+}
+
+.articleOne_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-right: 45px;
+    white-space:pre-line;
+    justify-content: center;
+}
+
+.calling {
+    display: flex;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    gap: 15px;
+}
+
+.button_phone {
+    width: 20%;
+}
+
+.button_estimate {
+    width: 180px;
+    height: 45px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: #292F36;
+    color:#FFFFFF;
+}
+
+.articleOne_Pic {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+
+}
+
+.pic1 {
+    border-top-right-radius: 326px;
+    border-bottom-left-radius: 123px;
+    padding: 100px;
+}
+
+.sectionsBoxTwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #F4F0EC;
+    border-radius:  70px;
+    width: 55vw;
+}
+
+.sectionsBoxTwo_text {
+    display: flex;
+    justify-content: center;
+    white-space: pre-line;
+    text-align: center;
+    padding-left: 1000px;
+}
+
+.articles {
+    display: flex;
+    gap: 10px;
+}
+
+.articlePeopleCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    white-space: pre-line;
+    border-radius: 30px;  
+ 
+}
+
+.articlePeopleTop {
+    display: flex;
+    border: 1px solid black;
+    text-align: left; 
+    gap: 15px; 
+}
+
+.person_photo {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    width: 60vw;
+}
+
+.sectionBoxThree {
+    display: flex;
+    text-align: center;
+}
+.sectionBoxThree_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: pre-line;
+}
+
+.projectCardsContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.projectCardFirstColumn, .projectCardSecondColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 10px 100px;
+}
+
+.project_pic {
+    height: 50vh;
+
+}
+
+.projectCard {
+    border: 1px solid black;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+}
+
+.projectCardText {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectTextArrow {
+    display: flex;
+    justify-content: space-between;
+    border:1px solid blue;
+}
+
+button.arrow_button {
+    background: url('../assets/src/img/arrow_button.svg'); 
+    background-repeat: no-repeat;
+    border: none;
+    padding-right: 65px;
+    justify-content: center;
+}
+
+.arrowButtonContainer {
+    display: flex;
+    padding-top: 15px;
+}
+
+.statisticContainer {
+    display: flex;
+    background-color: #F4F0EC;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+}
+
+.statistic {
+    display: flex;
+flex-direction: column;
+}
+
+.blogCardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 50px; 
+}
+
+.blogCardFirstRow, .blogCardSecondRow {
+    display: flex;
+    gap: 10px;
+}
+
+.blog_pic {
+    width: 20vw;
+}
+
+button.arrow_button_small {
+    background: url('../assets/src/img/arrow_button_small.svg'); 
+    background-repeat: no-repeat;
+    border: none;
+    padding-left: 55px;
+    
+}
+
+.blogDateArrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    background-color: #292F36;
+    width: 100vw;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTopScreen {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.footerSection {
+    border: 1px solid black;
+}
+
+.href_footer {
+    display: flex;
+    padding: 10px;
+}
+
+.footerBottomScreen{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}

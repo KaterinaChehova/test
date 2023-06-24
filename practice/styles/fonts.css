@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"),
+        local("Jost"),
+        url("fonts/Jost/webfontkit-20230619-175314/jost-variablefont_wght-webfont.woff") format("woff"),
+        url("fonts/Jost/webfontkit-20230619-175314/jost-variablefont_wght-webfont.woff2") format("woff2");
+
+}
+
+@font-face {
+    font-family: "DM Serif Display";
+    src: local("DM Serif Display"),
+        local("DM Serif Display"),
+        url("fonts/DM_Serif_Display/dmserifdisplay-regular-webfont.woff") format("woff"),
+        url("fonts/DM_Serif_Display/dmserifdisplay-regular-webfont.woff2") format("woff2");
+    font-weight: normal;
+}
+
+
+.nav {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+} 
+
+.p_h1, .p_sectionCard, .p_articleOne_text, .p_calling, .p_Projects, .p_projectStyle, .p_statistic, .p_Blogs, .p_blogDate,.p_Join, .p_footer, .href_footer {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.button_start, .button_estimate {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size:18px; 
+    line-height: 27px;
+    letter-spacing: 0.72px;
+}
+
+.personCity, .button_connect {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size:18px; 
+    line-height: 27px;
+    letter-spacing: 0.22px;  
+}
+
+.p_More {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size:18px; 
+    line-height: 27px;
+    letter-spacing: 0.36px;  
+}
+
+.p_opinion {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size:20px; 
+    line-height: 30px;
+    letter-spacing: 0.22px;  
+}
+
+
+
+h1{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+
+}
+
+.h3_section {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    letter-spacing: 0.22px;
+}
+
+.h2_articleOne {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+}
+
+.h2_opinion {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.22px;
+}
+
+.p_name {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+}
+
+.h2_projects, .h2_blog {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+}
+
+.p_design {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;  
+}
+
+.num {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;   
+}
+
+.p_interior {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.5px;   
+}
+
+.h2_join {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 0.22px;   
+}
+
+.footerSectionName {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+    letter-spacing: 0.22px
+}

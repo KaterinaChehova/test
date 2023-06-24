@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+
+.item{
+    display: flex;
+    border: 1px solid black;
+    padding: 150px;
+
+}
